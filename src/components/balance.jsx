@@ -20,7 +20,7 @@ const Balance = ({user}) => {
 
   useEffect(() => {
     fetchNativeBalance();
-  }, []);
+  });
     return (
       <div>
         {ethBalance && (
